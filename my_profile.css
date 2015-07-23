@@ -1,16 +1,22 @@
 body{
-  background: lightcyan;
+  background: lightgray;
+  margin: 20px;
 }
 #intro{
-  font-family: fantasy;
+  font-family: cursive;
   color: midnightblue;
+  margin-left: 8px;
 }
 p{
   font-family: fantasy;
   color: slateblue;
-
+margin-left: 8px;
 }
 ul{
+  font-family: fantasy;
+  color: teal;
+}
+ol{
   font-family: fantasy;
   color: teal;
 }
@@ -20,6 +26,35 @@ max-width: 200px;
 width: 120px;
 height: 120px;
 display: block;
-margin-left: auto;
 margin-right: auto;
+margin-left:10px;
+}
+article {
+  background: palegreen;
+  display: block;
+  margin-right: 100px;
+  margin-left:100px;
+  padding-bottom: 20px;
+}
+#gif{
+  max-height: 1500px;
+  max-width: 2000px;
+  width: 400px;
+  height: 250px;
+  display: block;
+  margin-right: auto;
+  margin-left:auto;
+}
+#japan{
+  max-height: 1500px;
+  max-width: 2000px;
+  width: 400px;
+  height: 250px;
+  display: block;
+  margin-right: auto;
+  margin-left:auto;
+}
+h4 {
+  font-family: cursive;
+  color:darkblue;
 }
