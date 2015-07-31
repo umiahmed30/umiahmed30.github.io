@@ -1,60 +1,47 @@
-body{
-  background: lightgray;
-  margin: 20px;
+html {
+  margin: 0 200 0 200;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/26/b9/cb/26b9cbac2c7d4f9ee62757e371f18bcb.jpg");
+  background-repeat:repeat;
+  text-align:center;
+  border:100px solid black;
 }
-#intro{
-  font-family: cursive;
-  color: midnightblue;
-  margin-left: 8px;
+
+.subway {
+  display: inline-block;
 }
-p{
-  font-family: fantasy;
-  color: slateblue;
-margin-left: 8px;
+
+img {
+  margin: 5px;
 }
-ul{
-  font-family: fantasy;
-  color: teal;
+
+body {
+  font-family: 'Gochi Hand', cursive;
+  color: white;
 }
-ol{
-  font-family: fantasy;
-  color: teal;
+
+h1 {
+  font-size:60px;
+
 }
-img.pic {
-max-height: 150px;
-max-width: 200px;
-width: 120px;
-height: 120px;
-display: block;
-margin-right: auto;
-margin-left:10px;
+
+h3 {
+  font-size: 40px;
+
 }
-article {
-  background: palegreen;
-  display: block;
-  margin-right: 100px;
-  margin-left:100px;
-  padding-bottom: 20px;
+
+.words {
+  background:black;
+  width:500px;
+  margin:auto;
+  /*float:left;*/
 }
-#gif{
-  max-height: 1500px;
-  max-width: 2000px;
-  width: 400px;
-  height: 250px;
-  display: block;
-  margin-right: auto;
-  margin-left:auto;
-}
-#japan{
-  max-height: 1500px;
-  max-width: 2000px;
-  width: 400px;
-  height: 250px;
-  display: block;
-  margin-right: auto;
-  margin-left:auto;
-}
-h4 {
-  font-family: cursive;
-  color:darkblue;
+
+.but {
+  height:150px;
+  width:300px;
+  font-size:40px;
+  font-weight:bold;
+  background-color:purple;
+  border: 5 px solid teal;
+
 }
